@@ -1,0 +1,63 @@
+/* Author: Emanuel eedat2 */
+
+/* this is the background of the page */
+body {
+	background-color: rgb(29, 33, 90);
+}
+
+
+/* responsive för ipad och mobil */
+@media screen and (max-width: 768px) {
+
+  }
+
+
+/* heading */
+.rubrik {
+	text-align: center;
+	font-size: 50px;
+	color: rgb(255, 255, 255);
+}
+
+
+/* this determens the size of the navbar */
+ul {
+	display: flex;
+	justify-content: center;
+	justify-items: center;
+	gap: 30px;
+	list-style-type: none;
+	padding: 20px;
+	font-size:25px;
+}
+
+
+/*  this is a hover mechanic for the navbar */
+#navt:hover {
+	background-color: rgb(0, 0, 0);
+	padding: 20px;
+}
+
+
+/*  this is the border of the navbar */
+#navt {
+	color: white;
+	text-decoration: none;
+	border-radius: 30px;
+}
+
+
+/* this is the size and color of the text */
+.text{
+	text-align: center;
+	font-size: 20px;
+	border-style: solid;
+	color: white;
+	border-radius: 20px;
+	background-color: black;
+	border-color: black;
+	margin: auto;
+}
+
+
+/* Referens till eleven: https://www.w3schools.com/css/default.asp */

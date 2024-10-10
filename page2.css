@@ -1,0 +1,44 @@
+/* Author: Emanuel eedat2 */
+
+
+/* this is the background of the page */
+body {
+	background-color: rgb(29, 33, 90);
+}
+
+
+/* this determens the size of the navbar */
+ul {
+	display: flex;
+	justify-content: center;
+	gap: 30px;
+	list-style-type: none;
+	padding: 20px;
+	font-size: 25px;	
+}
+
+
+/* hover mechanic for the navbar*/
+#navt:hover {
+	background-color: rgb(0, 0, 0);
+	padding: 20px;
+}
+
+
+/* color the navbar*/
+#navt {
+	color: white;
+	text-decoration: none;
+	border-radius: 30px;
+}
+
+h1{
+	text-align: center;
+	color: white;
+}
+
+#text{
+	text-align: center;
+	color: white;
+}
+/* Referens till eleven: https://www.w3schools.com/css/default.asp */
