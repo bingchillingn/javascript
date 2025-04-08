@@ -1,3 +1,4 @@
+// Author: Emanuel eedat2 //
 // Funktion för att hantera användarinmatning och lägga till meddelanden
 document.getElementById('userForm').addEventListener('submit', function(event) {
     event.preventDefault(); // Förhindra att formuläret skickas på normalt sätt
